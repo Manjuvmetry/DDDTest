@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.vmetry.ntltaxi.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateHomepage"/>
+        </methods>
+      </class> <!-- com.vmetry.ntltaxi.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
